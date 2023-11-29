@@ -51,8 +51,6 @@ const license = 18;
 const jrop = 16;
 const rental = 25;
 
-
-
 function checkAge( myAge ) {
     console.log('RUNNING ... '+myAge);
     if (myAge < license && myAge >= jrop) {
